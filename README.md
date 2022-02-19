@@ -14,6 +14,12 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
 ## 🚀 Quick start
 
+
+
+1. **Installing Styled components.**
+
+npm install --save gatsby-plugin-styled-components styled-components babel-plugin-styled-components
+
 1.  **Create a Gatsby site.**
 
     Use the Gatsby CLI ([install instructions](https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli)) to create a new site, specifying the hello-world starter.
