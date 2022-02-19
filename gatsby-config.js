@@ -7,8 +7,30 @@
 module.exports = {
   /* Your site config here */
   plugins: [
-    `gatsby-plugin-sharp`, `gatsby-transformer-sharp`,
+    
+    `gatsby-plugin-sharp`, 
+    `gatsby-transformer-sharp`,     
+    `gatsby-plugin-mdx`,
 
+
+      /* gatsby-plugin-mdx */
+
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`, `.md`],
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1200,
+            },
+          },
+        ],
+      },
+    },
+
+    
     // You can have multiple instances of this plugin
     // to read source nodes from different locations on your
     // filesystem.
