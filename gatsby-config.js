@@ -7,6 +7,7 @@
 module.exports = {
   /* Your site config here */
   plugins: [
+    `gatsby-plugin-sharp`, `gatsby-transformer-sharp`,
 
     // You can have multiple instances of this plugin
     // to read source nodes from different locations on your
