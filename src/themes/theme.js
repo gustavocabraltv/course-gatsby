@@ -11,7 +11,7 @@ export default {
         dark1: "hsl(227,2%,64%)",
         dark2: "hsl(227,2%,64%)",
         dark3: "hsl(227,2%,64%)",
-        light1: "hsl(207,70%,59%)",
+        light1: "white",
         light2: "hsl(0,0%,99%)",
 
     },
